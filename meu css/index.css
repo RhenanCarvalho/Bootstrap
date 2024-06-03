@@ -1,1 +1,44 @@
-.center {text-align: center;}
+.center {
+    text-align: center;}
+
+div {position: relative; left: 30px;}
+
+p {position: relative; width: 400px;}
+
+h2 {position: relative; left: 10px;}
+
+#svg_diferente {position: relative; left: 380px;}
+
+#svg_diferente2 {position: relative; left: 370px;}
+
+#h2_diferente {position: relative; left: 390px;}
+
+#h2_diferente2 {position: relative; left: 380px;}
+
+.p_local {position: relative; left: 280px;}
+
+.Imagens {border; border-style: double ; position: relative;}
+
+.p_sobremim {top: 100px; position: relative; left: 100px; width: 700px;}
+
+.h2_sobremim {top: 80px; position: relative; left: 100px;}
+
+.h2_html {top: 80px; position: relative; left: 100px; top: -170px;}
+
+.p_html {top: 100px; position: relative; left: 100px; width: 800px; top: -160px;}
+
+.img_html {width: 500px; position: relative; top: 180px; left: 1000px;}
+
+.h2_css {top: 80px; position: relative; left: 100px; top: -210px; color: white;}
+
+.p_css {top: 100px; position: relative; left: 100px; width: 800px; top: -200px; color: white;}
+
+.img_css {width: 500px; position: relative; top: 180px; left: 1000px;}
+
+.h2_js {top: 80px; position: relative; left: 100px; top: -240px; color: black;}
+
+.p_js {top: 100px; position: relative; left: 100px; width: 800px; top: -220px; color: black;}
+
+.img_js {width: 500px; position: relative; top: 180px; left: 1000px;}
+
+.img_projetos {width: 200px; position: relative; top: -10px; right: 80px;}
