@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="meu css/index.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(223, 220, 220);">
+    <form>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Página Principal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Sobremim.html">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Projetos.html">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Formação.html">Formação</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tecnologias Utilizadas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="tecnologias/HTML.html">HTML</a></li>
+                  <li><a class="dropdown-item" href="tecnologias/CSS.html">CSS</a></li>
+                  <li><a class="dropdown-item" href="tecnologias/JS.html">Java Script</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </form>
+    <br><br><br><br>
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="/img/Microsoft.png" alt="MICROSOFT" class="img_projetos"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal">Microsoft</h2>
+        <p>A Microsoft, palavra proveniente da junção de “microscopic” e “software” é atualmente a maior e mais conhecida empresa desenvolvedora de softwares e recursos tecnológicos do mundo.</p>
+        <p><a class="btn btn-secondary" href="#">Ver Projeto &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="/img/Steam.png" alt="MICROSOFT" class="img_projetos" style="right: 100px;">  <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal">Steam</h2>
+        <p>O Steam é uma plataforma digital para distribuição de jogos no computador.</p>
+        <p><a class="btn btn-secondary" href="#">Ver Projeto &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="/img/Redragon.png" alt="Redragon" class="img_projetos"> <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal">Redragon</h2>
+        <p>Redragon é uma marca de periféricos que atua no Brasil e oferece diversas opções acessíveis para comprar.</p>
+        <p><a class="btn btn-secondary" href="#">Ver Projeto &raquo;</a></p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" id="svg_diferente"><img src="/img/Facebook.png" alt="Facebook" class="img_projetos" style="left: 220px;"> <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal" id="h2_diferente">Facebook</h2>
+        <p class="p_local">Facebook é uma rede social que conecta usuários em todo o mundo.</p>
+        <p class="p_local"><a class="btn btn-secondary" href="#">Ver Projeto &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" id="svg_diferente2"><img src="/img/Portfolio.png" alt="Meu Portfólio" class="img_projetos" style="left: 235px;"> <rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <h2 class="fw-normal" id="h2_diferente2">Meu Portfólio</h2>
+        <p class="p_local">Esse projeto é o meu portfólio, que você está vendo agora e poderá acessar novamente clicando em "Ver Projeto".</p>
+        <p class="p_local"><a class="btn btn-secondary" href="#">Ver Projeto &raquo;</a></p>
+      </div>
+    </div>
+</body>
+<script src="lib/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
