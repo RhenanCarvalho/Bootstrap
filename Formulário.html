@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="meu css/index.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+    <button onclick="document.location='Contatos.html'" class="b_form">Voltar</button>
+    <div class="f_div">
+    <form action="Contatos.html">
+        <label for="f_name">Nome:</label>
+        <input type="text" id="f_name" name="f_name">
+        <br>
+        <label for="f_email">E-mail:</label>
+        <input type="email" id="f_email" name="f_email">
+
+        <br><br>
+        
+        <input type="radio" id="f_masculino" value="msc" name="f_genero">
+        <label for="f_masculino">Masculino</label>
+        <br>
+        <input type="radio" id="f_feminino" value="fmn" name="f_genero">
+        <label for="f_feminino">Feminino</label>
+        <br>
+        <input type="radio" id="f_opinar" value="nop" name="f_genero">
+        <label for="f_opinar">Outro</label>
+
+        <br><br>
+
+        <label for="f_nasc">Data de Nascimento</label>
+        <input type="date" id="f_nasc" name="f_nasc">
+        <hr>
+        <br>
+
+        <textarea type="text" id="f_msg" name="f_mens" cols="50" rows="5">Enviar Mensagem</textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="f_respostaemail">
+        <label for="f_respostaemail">Receber resposta por email</label>
+        <br>
+        <input type="checkbox" id="f_respostacelular">
+        <label for="f_respostacelular">Receber resposta por SMS</label>
+        <br><br>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+</body>
