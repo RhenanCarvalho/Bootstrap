@@ -64,3 +64,9 @@ hr {width: 100%;
 .f_div {position: relative; top: 100px; left: 130px;}
 
 #div_footer {position: absolute !important; bottom: 0 !important;}
+
+.h2_php {top: 80px; position: relative; left: 100px; top: -170px; color: white;}
+
+.p_php {top: 100px; position: relative; left: 100px; width: 800px; top: -160px; color: white;}
+
+.img_php {width: 500px; position: relative; top: 180px; left: 1000px;}
