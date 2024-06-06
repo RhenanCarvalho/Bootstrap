@@ -49,7 +49,7 @@
       </nav>
     </form>
 
-    <table border="3">
+    <table border="3" class="table1">
       <tr>
         <th>Telefone</th>
         <th>E-mail</th>
@@ -60,28 +60,68 @@
       <tr>
         <th>(32)99978-1273 |</th>
         <th>rhenan.pecanha@bol.com.br |</th>
-        <th>rhenancps |</th>
-        <th>Rhenan Peçanha</th>
+        <th><a href="https://www.instagram.com/rhenancps/" target="_blank" style="color: black;">rhenancps</a> |</th>
+        <th><a href="https://www.facebook.com/rhenan.carvalhopecanha/" target="_blank" style="color: black;">Rhenan Peçanha</a></th>
       </tr>
     </table>
     <br><br>
-    <button onclick="document.location='Formulário.html'" class="b_contatos">Enviar Formulário &raquo;</button>
 
     <div class="container" id="div_footer">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Company, Inc</p>
+        <p class="col-md-4 mb-0 text-muted">© 2024 Meu Portfólio, Inc.</p>
     
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
         </a>
     
         <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a href="https://www.instagram.com/rhenancps/" class="nav-link px-2 text-body-secondary">Instagram</a></li>
-          <li class="nav-item"><a href="https://www.facebook.com/rhenan.carvalhopecanha/" class="nav-link px-2 text-body-secondary">Facebook</a></li>
-          <li class="nav-item"><a href="https://steamcommunity.com/id/Smokeznn/" class="nav-link px-2 text-body-secondary">Steam</a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/rhenancps/" target="_blank" class="nav-link px-2 text-muted">Instagram</a></li>
+          <li class="nav-item"><a href="https://www.facebook.com/rhenan.carvalhopecanha/" target="_blank" class="nav-link px-2 text-muted">Facebook</a></li>
+          <li class="nav-item"><a href="https://steamcommunity.com/id/Smokeznn/" target="_blank" class="nav-link px-2 text-muted">Steam</a></li>
         </ul>
       </footer>
     </div>
+
+    <div class="f_div">
+    <form action="Contatos.html" style="position: relative; right: 150px; top: -100px;">
+        <label for="f_name">Nome:</label>
+        <input type="text" id="f_name" name="f_name">
+        <br>
+        <label for="f_email">E-mail:</label>
+        <input type="email" id="f_email" name="f_email">
+
+        <br><br>
+        
+        <input type="radio" id="f_masculino" value="msc" name="f_genero">
+        <label for="f_masculino">Masculino</label>
+        <br>
+        <input type="radio" id="f_feminino" value="fmn" name="f_genero">
+        <label for="f_feminino">Feminino</label>
+        <br>
+        <input type="radio" id="f_opinar" value="nop" name="f_genero">
+        <label for="f_opinar">Outro</label>
+
+        <br><br>
+
+        <label for="f_nasc">Data de Nascimento</label>
+        <input type="date" id="f_nasc" name="f_nasc">
+        <hr>
+        <br>
+
+        <textarea type="text" id="f_msg" name="f_mens" cols="50" rows="5">Enviar Mensagem</textarea>
+
+        <br><br>
+
+        <input type="checkbox" id="f_respostaemail">
+        <label for="f_respostaemail">Receber resposta por email</label>
+        <br>
+        <input type="checkbox" id="f_respostacelular">
+        <label for="f_respostacelular">Receber resposta por SMS</label>
+        <br><br>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form>
+</div>
 </body>
 <script src="lib/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>

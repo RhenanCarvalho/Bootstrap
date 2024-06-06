@@ -1,72 +1,461 @@
 .center {
-    text-align: center;}
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
 
-div {position: relative; left: 30px;}
+div {
+    position: relative; 
+    left: 30px;
+}
 
-p {position: relative; width: 400px;}
+p {
+    position: relative; 
+    width: 400px;
+}
 
-h2 {position: relative; left: 10px;}
+h2 {
+    position: relative; 
+    left: 10px;
+}
 
-#svg_diferente {position: relative; left: 380px;}
+#svg_diferente {
+    position: relative; 
+    left: 380px;
+}
 
-#svg_diferente2 {position: relative; left: 370px;}
+#svg_diferente2 {
+    position: relative; 
+    left: 370px;
+}
 
-#h2_diferente {position: relative; left: 390px;}
+#h2_diferente {
+    position: relative; 
+    left: 390px;
+}
 
-#h2_diferente2 {position: relative; left: 380px;}
+#h2_diferente2 {
+    position: relative; 
+    left: 380px;
+}
 
-.p_local {position: relative; left: 280px;}
+.p_local {
+    position: relative; 
+    left: 300px;
+}
 
-.Imagens {border; border-style: double ; position: relative;}
+.Imagens {
+    border; 
+    border-style: 
+    double ; position: relative;
+}
 
-.p_sobremim {top: 100px; position: relative; left: 100px; width: 700px;}
+.p_sobremim {
+    top: 90px; 
+    position: relative; 
+    left: 60px; 
+    width: 700px;
+}
 
-.h2_sobremim {top: 80px; position: relative; left: 100px;}
+.h2_sobremim {
+    top: 50px; 
+    position: relative; 
+    left: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+}
 
-.h2_html {top: 80px; position: relative; left: 100px; top: -170px;}
+.h2_html {
+    top: 80px; 
+    position: relative; 
+    left: 100px; 
+    top: -170px;
+}
 
-.p_html {top: 100px; position: relative; left: 100px; width: 800px; top: -160px;}
+.p_html {
+    top: 100px; 
+    position: relative; 
+    left: 100px; 
+    width: 800px; 
+    top: -160px;
+}
 
-.img_html {width: 500px; position: relative; top: 180px; left: 1000px;}
+.img_html {
+    width: 500px; 
+    position: relative; 
+    top: 180px; 
+    left: 1000px;
+}
 
-.h2_css {top: 80px; position: relative; left: 100px; top: -210px; color: white;}
+.h2_css {
+    top: 80px; 
+    position: relative; 
+    left: 100px; 
+    top: -210px; 
+    color: white;
+}
 
-.p_css {top: 100px; position: relative; left: 100px; width: 800px; top: -200px; color: white;}
+.p_css {
+    top: 100px; 
+    position: relative; 
+    left: 100px; 
+    width: 800px; 
+    top: -200px; 
+    color: white;
+}
 
-.img_css {width: 500px; position: relative; top: 180px; left: 1000px;}
+.img_css {
+    width: 500px; 
+    position: relative; 
+    top: 180px; 
+    left: 1000px;
+}
 
-.h2_js {top: 80px; position: relative; left: 100px; top: -240px; color: black;}
+.h2_js {
+    top: 80px; 
+    position: relative; 
+    left: 100px; 
+    top: -240px; 
+    color: black;
+}
 
-.p_js {top: 100px; position: relative; left: 100px; width: 800px; top: -220px; color: black;}
+.p_js {
+    top: 100px; 
+    position: relative; 
+    left: 100px; 
+    width: 800px; 
+    top: -220px; 
+    color: black;
+}
 
-.img_js {width: 500px; position: relative; top: 180px; left: 1000px;}
+.img_js {
+    width: 500px; 
+    position: relative; 
+    top: 180px; 
+    left: 1000px;
+}
 
-.img_projetos {width: 200px; position: relative; top: -10px; right: 80px;}
+.img_projetos {
+    width: 200px; 
+    position: relative; 
+    top: -10px; 
+    right: 80px;
+}
 
-.p_formaçao {top: 140px; position: relative; left: 450px; width: 700px; text-align: center;}
+.p_formaçao {
+    top: 140px; 
+    position: relative; 
+    left: 450px; 
+    width: 700px;
+}
 
-.h2_formaçao {top: 90px; position: relative; left: 680px;}
+.h2_formaçao {
+    top: 60px; 
+    position: relative; 
+    left: 600px; 
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
 
-.p_atuaçao {top: 130px; position: relative; left: 450px; width: 700px; text-align: center;}
+.p_atuaçao {
+    top: 130px; 
+    position: relative; 
+    left: 450px; 
+    width: 700px; 
+    text-align: center;
+}
 
-.h2_atuaçao {top: 80px; position: relative; left: 670px;}
+.h2_atuaçao {
+    top: 60px; 
+    position: relative;
+    left: 580px; 
+    font-size: 50px;
+    color: black;
+    font-style: italic;
+}
 
-table {position: relative; left: 40px; top: 20px;}
+table {
+    position: relative; 
+    left: 40px; 
+    top: 20px;
+}
 
-.b_contatos {position: relative; left: 50px;}
+.b_contatos {
+    position: relative; 
+    left: 50px;
+}
 
-.b_form {position: relative; left: 50px; top: 50px;}
+.b_form {
+    position: relative; 
+    left: 50px; 
+    top: 50px;
+}
 
 hr {width: 100%;
     height: 3px;
-    color: rgb(0, 0, 0);}
+    color: rgb(0, 0, 0);
+}
 
-.f_div {position: relative; top: 100px; left: 130px;}
+.f_div {
+    position: relative; 
+    top: 100px; 
+    left: 130px;
+}
 
-#div_footer {position: absolute !important; bottom: 0 !important;}
+#div_footer {
+    position: absolute !important; 
+    bottom: 0 !important;
+}
 
-.h2_php {top: 80px; position: relative; left: 100px; top: -170px; color: white;}
+.h2_php {
+    top: 80px; 
+    position: relative; 
+    left: 100px; 
+    top: -170px; 
+    color: white;
+}
 
-.p_php {top: 100px; position: relative; left: 100px; width: 800px; top: -160px; color: white;}
+.p_php {
+    top: 100px; 
+    position: relative; 
+    left: 100px; 
+    width: 800px; 
+    top: -160px; 
+    color: white;
+}
 
-.img_php {width: 500px; position: relative; top: 180px; left: 1000px;}
+.img_php {
+    width: 500px; 
+    position: relative; 
+    top: 180px; 
+    left: 1000px;
+}
+
+.h3_atuaçao {
+    position: relative;
+    left: 160px;
+    top: -280px;
+    font-size: 45px;
+    font-style: oblique;
+    color: rgb(34, 34, 34);
+}
+
+.h3_atuaçao2 {
+    position: relative;
+    left: 1200px;
+    top: -515px;
+    font-size: 45px;
+    font-style: oblique;
+    color: rgb(34, 34, 34);
+}
+
+.h3_atuaçao3 {
+    position: relative;
+    left: 630px;
+    top: -300px;
+    font-size: 45px;
+    font-style: oblique;
+    color: rgb(34, 34, 34);
+}
+
+.p_atuaçao {
+    font-size: 18px;
+    position: relative;
+    left: 80px ;
+    width: 350px;
+    top: -250px;
+}
+
+.p_atuaçao2 {
+    font-size: 18px;
+    position: relative;
+    left: 1125px;
+    top: -480px;
+}
+
+.p_atuaçao3 {
+    font-size: 18px;
+    position: relative;
+    left: 640px;
+    top: -270px;
+}
+
+.h3_sobremim {
+    font-size: 30px;
+    left: 60px;
+    top: 80px;
+    position: relative;
+    font-style: italic;
+}
+
+.h4_sobremim {
+    position: relative;
+    font-style: italic;
+    font-size: 30px;
+    left: 1100px;
+    top: -420px;
+}
+
+.p2_sobremim {
+    position: relative;
+    left: 900px;
+    top: -410px;
+    width: 600px;
+}
+
+.fotos {
+    width: 300px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+#div_footer {
+    padding: 20px;
+    top: 800px;
+    position: relative;
+    left: 100px;
+}
+
+footer {
+    color: #6c757d;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+.p_index {
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    width: 800px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.h3_index {
+    font-size: 30px;
+    left: 120px;
+    top: 80px;
+    position: relative;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.p_index2 {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 80px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.h3_index2 {
+    position: relative;
+    left: 700px;
+    top: -60px;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.p_index3 {
+    position: relative;
+    font-size: 20px;
+    left: 650px;
+    top: -50px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.h3_index3 {
+    position: relative;
+    left: 1200px;
+    top: -150px;
+    font-style: italic;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.p_index4 {
+    position: relative;
+    left: 1130px;
+    font-size: 20px;
+    top: -130px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.table1 {
+    position: relative;
+    left: 500px;
+}
+
+.f_div {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #0c1116;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
